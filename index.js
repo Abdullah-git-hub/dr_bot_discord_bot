@@ -72,7 +72,7 @@ client.on("messageCreate", (msg) => {
       });
   } else if (msg.content == "dr help") {
     msg.reply(
-      "```type--> \ndr weather [city-name]\n dr prime [a number between 0-1000000000]\n dr meme\n dr ytThumb [link] (for downloading high res thumbnail of any youtube video) \n dr qr [text that you want to convert in qr code] \n dr help \n dr timer [time in minuites in numbers]```",
+      "```type--> \ndr weather [city-name]\n dr prime [a number between 0-1000000000]\n dr qr [text that you want to convert in qr code] \n dr help \n dr timer [time in minuites in numbers]```",
     );
   } else if (msg.content.startsWith("dr prime") == true) {
     var num = msg.content.slice(9);
